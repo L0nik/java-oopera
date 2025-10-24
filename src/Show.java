@@ -4,7 +4,7 @@ public class Show {
     private final String title;
     private final int duration;
     private final Director director;
-    ArrayList<Actor> listOfActors;
+    private final ArrayList<Actor> listOfActors;
 
     public Show(int duration, String title, Director director) {
         this.duration = duration;

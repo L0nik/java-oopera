@@ -31,7 +31,7 @@ public class Theatre {
         System.out.println();
 
         //заменяем актера в опере и выводим новый список актеров
-        opera.changeActor(actor3, actor2.surname);
+        opera.changeActor(actor3, actor2.getSurname());
         opera.printActors();
         System.out.println();
 
